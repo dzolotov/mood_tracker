@@ -1,0 +1,138 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4512827764410458830",
+      "lastPropertyId": "10:4896837405666347529",
+      "name": "MoodEntryEntity",
+      "properties": [
+        {
+          "id": "1:6780272814392514137",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3447301921127271822",
+          "name": "entryId",
+          "type": 9
+        },
+        {
+          "id": "3:4147578345261271153",
+          "name": "moodValue",
+          "type": 6
+        },
+        {
+          "id": "4:8099531960537413653",
+          "name": "timestamp",
+          "type": 10
+        },
+        {
+          "id": "5:7462357241315233361",
+          "name": "note",
+          "type": 9
+        },
+        {
+          "id": "6:6475165492477229539",
+          "name": "activities",
+          "type": 9
+        },
+        {
+          "id": "7:5922052533756820258",
+          "name": "sleepDurationMinutes",
+          "type": 6
+        },
+        {
+          "id": "8:2210975874376881202",
+          "name": "sleepTime",
+          "type": 10
+        },
+        {
+          "id": "9:4470195448590097511",
+          "name": "wakeTime",
+          "type": 10
+        },
+        {
+          "id": "10:4896837405666347529",
+          "name": "photoPath",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:7870224153746433786",
+      "lastPropertyId": "10:738823523226837628",
+      "name": "MoodEntryBox",
+      "properties": [
+        {
+          "id": "1:2717101047766332393",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2867629855762397720",
+          "name": "entryId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "1:7859732748731530789"
+        },
+        {
+          "id": "3:6313192582301897381",
+          "name": "moodValue",
+          "type": 6
+        },
+        {
+          "id": "4:6087728094826456537",
+          "name": "timestamp",
+          "type": 10
+        },
+        {
+          "id": "5:2207808962000358567",
+          "name": "note",
+          "type": 9
+        },
+        {
+          "id": "6:7606048750037427185",
+          "name": "activities",
+          "type": 9
+        },
+        {
+          "id": "7:7454818240624693235",
+          "name": "sleepDurationMinutes",
+          "type": 6
+        },
+        {
+          "id": "8:2878264811735369585",
+          "name": "sleepTime",
+          "type": 10
+        },
+        {
+          "id": "9:73207580496247787",
+          "name": "wakeTime",
+          "type": 10
+        },
+        {
+          "id": "10:738823523226837628",
+          "name": "photoPath",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:7870224153746433786",
+  "lastIndexId": "1:7859732748731530789",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
