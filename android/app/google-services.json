@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353191750538",
+    "project_id": "demopersistence",
+    "storage_bucket": "demopersistence.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353191750538:android:7618d2c3f23d70d057b673",
+        "android_client_info": {
+          "package_name": "ru.yandex.mood_tracker_plus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt3W6PaSy0IHUG4qV3loeVnofIHJo6C4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
